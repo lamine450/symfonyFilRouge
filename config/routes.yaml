@@ -1,0 +1,12 @@
+#index:
+#    path: /
+#    controller: App\Controller\DefaultController::
+# config/routes.yaml
+authentication_token:
+  path: /api/login
+  methods: ['POST']
+
+
+putGroupeTag:
+   path: /api/admin/groupe_tags/{id}
+   controller: App\Controller\GroupeTagController::putGroupesTAgs
